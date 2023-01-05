@@ -1,0 +1,109 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main (void)
+{
+	for(int i=0 ; i<=100 ; i++)
+	{
+    string drink, city;
+    float price;
+    int quantity;
+    cout<<"Enter the Drink...";
+    cin>>drink;
+    cout<<"Enter the city....";
+    cin>>city;
+    if(drink=="coffee")
+    {
+    	
+    	if(city=="chicago")
+    	{
+    		cout<<"Enter the quantity...";
+    		cin>>quantity;
+    		price=quantity*0.50;
+    		cout<<"Your price is..."<<price<<endl;
+		}
+		else if(city=="phoenix")
+		{
+			cout<<"Enter the quantity...";
+    		cin>>quantity;
+    		price=quantity*0.40;
+    		cout<<"Your price is..."<<price<<endl;
+		}
+		else
+		{
+			if(city=="houston")
+			{
+			cout<<"Enter the quantity...";
+    		cin>>quantity;
+    		price=quantity*0.45;
+    		cout<<"Your price is..."<<price<<endl;
+			}
+		}
+	}
+    
+    if(drink=="sweets")
+    {
+    	
+    	if(city=="chicago")
+    	{
+    		cout<<"Enter the quantity...";
+    		cin>>quantity;
+    		price=quantity*1.45;
+    		cout<<"Your price is..."<<price<<endl;
+		}
+		else if(city=="phoenix")
+		{
+			cout<<"Enter the quantity...";
+    		cin>>quantity;
+    		price=quantity*1.30;
+    		cout<<"Your price is..."<<price<<endl;
+		}
+		else
+		{
+			if(city=="houston")
+			{
+			cout<<"Enter the quantity...";
+    		cin>>quantity;
+    		price=quantity*1.35;
+    		cout<<"Your price is..."<<price;
+			}
+		}
+	}
+	
+	if(drink=="water")
+    {
+    	
+    	if(city=="chicago")
+    	{
+    		cout<<"Enter the quantity...";
+    		cin>>quantity;
+    		price=quantity*0.80;
+    		cout<<"Your price is..."<<price<<endl;
+		}
+		else if(city=="phoenix")
+		{
+			cout<<"Enter the quantity...";
+    		cin>>quantity;
+    		price=quantity*0.70;
+    		cout<<"Your price is..."<<price<<endl;
+		}
+		else
+		{
+			if(city=="houston")
+			{
+			cout<<"Enter the quantity...";
+    		cin>>quantity;
+    		price=quantity*0.70;
+    		cout<<"Your price is..."<<price<<endl;
+			}
+		}
+	}
+}
+
+		
+	}
+
+
+
+
