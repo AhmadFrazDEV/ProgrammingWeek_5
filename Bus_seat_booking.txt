@@ -1,0 +1,57 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	for(int i=0 ; i<=10 ; i++){
+	string cls;
+	cout<<"Enter your class ( business / economy )....";
+	cin>>cls;
+	if(cls=="business")
+	{
+		int wait_of_lag;
+		int ticket_of_bis=15000;
+		int limit_wait=40;
+		int extra_wait;
+		int extra;
+		int final_pri;
+		cout<<"Enter the wait of lagguage....."<<endl;
+		cin>>wait_of_lag;
+			if(wait_of_lag<=40)
+			{
+				cout<<"Your price is..."<<ticket_of_bis<<endl;
+			}
+			if(wait_of_lag>40)
+			{
+				extra_wait=wait_of_lag-limit_wait;
+                extra=extra_wait*1000;
+				final_pri=ticket_of_bis+extra;
+				cout<<"Your final prive is...."<<final_pri<<endl;
+			}
+	}
+	
+	if(cls=="economy")
+	{
+		int wait_of_lag1;
+		int ticket_of_eco=8000;
+		int limit_wait1=25;
+		int extra_wait1;
+		int extra1;
+		int final_pri1;
+		cout<<"Enter the wait of lagguage.....";
+		cin>>wait_of_lag1;
+		if(wait_of_lag1<=25)
+			{
+				cout<<"Your price is..."<<ticket_of_eco;
+			}
+			if(wait_of_lag1>25)
+			{
+				extra_wait1=wait_of_lag1-limit_wait1;
+                extra1=extra_wait1*500;
+				final_pri1=ticket_of_eco+extra1;
+				cout<<"Your final prive is...."<<final_pri1<<endl;
+			}
+	}
+	cout<<"====================================================================="<<endl;
+}
+
+	}
