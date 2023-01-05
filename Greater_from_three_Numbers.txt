@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	int a,b,c;
+	cout<<"Enter numbers...";
+	cin>>a;
+	cout<<"Enter numbers...";
+	cin>>b;
+	cout<<"Enter numbers...";
+	cin>>c;
+	if(a>b)
+	{
+		if(a>c)
+		{
+			cout<<"A is Greater";
+		}
+	}
+	 if(b>a)
+	{
+		if(b>c)
+		{
+			cout<<"B is Greater";
+		}
+	}
+	if(c>a)
+	{
+		if(c>b)
+		{
+			cout<<"C is Greater";
+		}
+	}
+	 
+	
+}
