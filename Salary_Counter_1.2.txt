@@ -1,0 +1,60 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	for(int i=0 ; i<=10 ; i++)
+{
+ 	string day, month;
+ 	int totle_am;
+ 	float dis;
+ 	int totle_pay;
+	 cout<<"Enter the month.....";
+	 cin>>month;
+	 if(month=="octuber" || month=="march" || month=="august")
+	 {
+		cout<<"Enter the day.....";
+		cin>>day;
+		if(day=="sunday")
+		{
+			cout<<"Enter your bill......";
+			cin>>totle_am;
+			dis=totle_am*10.0/100.0;
+			totle_pay=totle_am-dis;
+			cout<<"Your totle price is....."<<totle_pay<<endl;
+					
+		 } 
+		 else
+		 {
+				cout<<"No discount at this time....."; 	
+		 }	
+		
+	} 
+	if(month=="november" || month=="december")
+	
+	{
+		cout<<"Enter the day.....";
+		cin>>day;
+		if(day=="monday")
+		{
+			cout<<"Enter your bill......";
+			cin>>totle_am;
+			dis=totle_am*5.0/100.0;
+			totle_pay=totle_am-dis;
+			cout<<"Your totle price is....."<<totle_pay<<endl;
+					
+		 } 
+		  else
+		 {
+				cout<<"No discount at this time....."; 	
+		 }	
+		 
+	 } 
+	 else
+	 {
+	 	cout<<"You have you pay...."<<totle_am<<endl;
+	 }
+	 cout<<"============================================================================"<<endl;
+} 
+}
+
+

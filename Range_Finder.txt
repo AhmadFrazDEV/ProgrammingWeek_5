@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	for(int i=0;i<5; i++)
+	{
+	int a;
+	cout<<"Enter numbers...";
+	cin>>a;
+	
+	if(a>10)
+	{
+		if(a<100)
+		{
+			cout<<"Number is between 10-100"<<endl;
+		}
+		else
+		{
+			cout<<"Not in range"<<endl;
+		}
+		
+	}
+	else
+	{
+		cout<<"Not in range"<<endl;
+	}
+}
+}

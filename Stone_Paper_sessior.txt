@@ -1,0 +1,62 @@
+#include<iostream>
+using namespace std;
+main()
+{
+    string p1,p2;
+    cout<<"Enter....";
+    cin>>p1;
+    cout<<"Enter....";
+    cin>>p2;
+    
+    if(p1=="Rock")
+    {
+    	if(p2=="Scissors")
+    	{
+    		cout<<p1<< "win";
+		}
+		else
+		{
+			cout<<"   ";
+		}
+	}
+    if(p1=="Scissors")
+    {
+    	if(p2=="Paper")
+    	{
+    		cout<<p1 <<"win";
+		}
+		else
+		{
+			cout<<"   ";
+		}
+	}
+	
+	if(p1=="Rock")
+	{
+		if(p2=="Paper")
+		{
+			cout<<p1 <<"win";
+		}
+		else
+		{
+			cout<<"   ";
+		}
+	}
+	
+	if(p1=="Paper")
+	{
+		if(p2=="Paper")
+		{
+			cout<<"Draw";
+		}
+		else
+		{
+			cout<<"   ";
+		}
+	}
+}
+
+    	
+	
+
+

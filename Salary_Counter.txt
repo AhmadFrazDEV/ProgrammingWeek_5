@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	string day;
+	cout<<"Enter the days....";
+	cin>>day;
+	int totle_am;
+	cout<<"Enter your totle amount....";
+	cin>>totle_am;
+	if(totle_am>=5000)
+	{
+		if(day=="sunday")
+		{
+			float dis=totle_am*10.0/100.0;
+			int pay_am=totle_am-dis;
+			cout<<"Your pay able amount is...."<<pay_am;
+		}
+		else
+		{
+			cout<<"Your payable amount is...."<<totle_am;
+		}
+	}
+}

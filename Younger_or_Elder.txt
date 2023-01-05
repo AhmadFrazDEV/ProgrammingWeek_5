@@ -1,0 +1,46 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	string n1,n2,n3;
+	int  a1,a2,a3;
+	cout<<"Enter the name of first Brother...";
+	cin>>n1;
+	cout<<"Enter the age of First Brother....";
+	cin>>a1;
+	cout<<"Enter the name of Second Brother...";
+	cin>>n2;
+	cout<<"Enter the age of Second Brother....";
+	cin>>a2;
+	cout<<"Enter the name of Third Brother...";
+	cin>>n3;
+	cout<<"Enter the age of Third Brother....";
+	cin>>a3;
+	
+	if(a1 < a2)
+	{
+		if(a1 < a3)
+		{
+			cout<<n1 <<"is Younger";
+		}
+		else
+		{
+			cout<<n3 <<"is Younger";
+		}
+	}
+	
+	if(a2 < a1)
+	{
+		if(a2 < a3)
+		{
+			cout<<a2 <<"is younger";
+			
+		}
+		else
+		{
+			cout<<a3 <<"is younger";
+		}
+	}
+	
+	
+}
